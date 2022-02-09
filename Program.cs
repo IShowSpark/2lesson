@@ -9,34 +9,35 @@ namespace _2lesson
     class Program
     {
         static void Main(string[] args)
-        {
-            //Console.WriteLine("What your name?");
-            //string name = Console.ReadLine();
-            //Console.WriteLine("What name second person?");
-            //string name2 = Console.ReadLine();
-            //if (name == "Artjom" && name2 == "Timofei" || name == "Timofei" && name2 == "Artjom")
-            //{
-            //    Console.WriteLine($"{name} and {name2} sit together");
-            //    string otvet1 = Console.ReadLine();
-            //}
-            //else if (name == "German" && name2 == "Kevin" || name == "Kevin" && name2 == "German")
-            //{
-            //    Console.WriteLine($"{name} and {name2} sit together");
-            //    string otvet2 = Console.ReadLine();
-            //}
-            //else if (name == "Ilya" && name2 == "Anton" || name == "Anton" && name2 == "Ilya")
-            //{
-            //    Console.WriteLine($"{name} and {name2} sit together");
-            //    string otvet3 = Console.ReadLine();
-            //}
-            //else if (name == "Denis" && name2 == "Artjom" || name == "Artjom" && name2 == "Denis")
-            //{
-            //    Console.WriteLine($"{name} and {name2} sit together");
-            //    string otvet4 = Console.ReadLine();
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Neighbors is out");
+        {   
+                //} while (k.Key!=ConsoleKey.Escape);
+                //Console.WriteLine("What your name?");
+                //string name = Console.ReadLine();
+                //Console.WriteLine("What name second person?");
+                //string name2 = Console.ReadLine();
+                //if (name == "Artjom" && name2 == "Timofei" || name == "Timofei" && name2 == "Artjom")
+                //{
+                //    Console.WriteLine($"{name} and {name2} sit together");
+                //    string otvet1 = Console.ReadLine();
+                //}
+                //else if (name == "German" && name2 == "Kevin" || name == "Kevin" && name2 == "German")
+                //{
+                //    Console.WriteLine($"{name} and {name2} sit together");
+                //    string otvet2 = Console.ReadLine();
+                //}
+                //else if (name == "Ilya" && name2 == "Anton" || name == "Anton" && name2 == "Ilya")
+                //{
+                //    Console.WriteLine($"{name} and {name2} sit together");
+                //    string otvet3 = Console.ReadLine();
+                //}
+                //else if (name == "Denis" && name2 == "Artjom" || name == "Artjom" && name2 == "Denis")
+                //{
+                //    Console.WriteLine($"{name} and {name2} sit together");
+                //    string otvet4 = Console.ReadLine();
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Neighbors is out");
                 //}
                 //int plosad = 0;
                 //Console.WriteLine("Какая длина стены a?");
@@ -63,11 +64,9 @@ namespace _2lesson
                 //{
                 //    Console.WriteLine("Ваша температура в комнате выше 18 градусов");
                 //    string otvet = Console.ReadLine();
-                //}
 
 
 
-
-            }
+        }
     }
 }
