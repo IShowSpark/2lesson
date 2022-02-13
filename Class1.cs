@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,35 +10,35 @@ namespace _2lesson
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            int[] num = new int[5];
-            int a=0;
-            int k=0;
-            do
-            {
-                try
-                {
-                    Console.WriteLine("Введи число");
-                    a = int.Parse(Console.ReadLine());
+            //Console.OutputEncoding = Encoding.UTF8;
+            //int[] num = new int[5];
+            //int a=0;
+            //int k=0;
+            //do
+            //{
+            //    try
+            //    {
+            //        Console.WriteLine("Введи число");
+            //        a = int.Parse(Console.ReadLine());
 
-                }
-                catch (Exception exp)
-                {
-                    Console.WriteLine(exp);
-                }
-                num[k] = a;
-                k++;
-            } while (k < 5);
-            int summa = 0;
-            int korr = 1;
-            double arif = 0;
-            foreach (int arv in num)
-            {
-                summa += arv;
-                korr *= arv;
-                arif += arv / num.Length;
-            }
-            Console.WriteLine($"Summa: {summa}, Korr: {korr}, Arif: {arif}");
+            //    }
+            //    catch (Exception exp)
+            //    {
+            //        Console.WriteLine(exp);
+            //    }
+            //    num[k] = a;
+            //    k++;
+            //} while (k < 5);
+            //int summa = 0;
+            //int korr = 1;
+            //double arif = 0;
+            //foreach (int arv in num)
+            //{
+            //    summa += arv;
+            //    korr *= arv;
+            //    arif += arv / num.Length;
+            //}
+            //Console.WriteLine($"Summa: {summa}, Korr: {korr}, Arif: {arif}");
 
 
 
@@ -113,10 +113,44 @@ namespace _2lesson
             //    Console.WriteLine();
             //}
 
+            string a = "";
+            while (a.ToLower() != "elevant")
+            {
+                Console.WriteLine("Osta elevant ära!");
+                a = Console.ReadLine();
+            }
+            Console.WriteLine("Good");
+
+            //таблица умножения
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    for (int j = 1; j <= 10; j++)
+            //    {
+            //        Console.Write((i * j).ToString() + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("Введите первое число: ");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Введите второе число: ");
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Введите третье число: ");
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Введите четвертое число: ");
+            //int d = Convert.ToInt32(Console.ReadLine());
+
+            //int[] mass = new int { a, b, c, d };
+
+            //for (int i = 0; i < mass.Length; i++)
+            //{
+            //    int module = Math.Abs(mass[i]);
+            //    int koren = Math.Sqrt(mass[i]);
+            //    int stepen = Math.Pow(mass[i], 4);
+            //    Console.WriteLine(Math.Round(mass[i], 2) + " " + Math.Round(module, 2) + " " + Math.Round(koren, 2) + " " + Math.Round(stepen, 2) + "\n");
+            //}
 
 
-
-            Console.ReadLine();
+            Console.ReadLine()
 
         }   
     }
